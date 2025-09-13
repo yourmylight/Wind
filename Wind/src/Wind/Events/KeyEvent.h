@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Wind {
 
 	class WIND_API KeyEvent : public Event

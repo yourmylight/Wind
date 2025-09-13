@@ -1,9 +1,7 @@
 #pragma once
 
+#include "wdpch.h"
 #include "Wind/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Wind {
 

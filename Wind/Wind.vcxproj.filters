@@ -34,6 +34,7 @@
     <ClInclude Include="src\Wind\Log.h">
       <Filter>Wind</Filter>
     </ClInclude>
+    <ClInclude Include="src\wdpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wind\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Wind\Log.cpp">
       <Filter>Wind</Filter>
     </ClCompile>
+    <ClCompile Include="src\wdpch.cpp" />
   </ItemGroup>
 </Project>

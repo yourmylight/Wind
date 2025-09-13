@@ -18,6 +18,9 @@ project "Wind"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "wdpch.h"
+	pchsource "Wind/src/wdpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
