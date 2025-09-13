@@ -1,0 +1,3 @@
+[submodule "Wind/vendor/spdlog"]
+	path = Wind/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
