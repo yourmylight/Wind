@@ -40,6 +40,12 @@
     <ClInclude Include="src\Wind\Events\MouseEvent.h">
       <Filter>Wind\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Wind\Layer.h">
+      <Filter>Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wind\LayerStack.h">
+      <Filter>Wind</Filter>
+    </ClInclude>
     <ClInclude Include="src\Wind\Log.h">
       <Filter>Wind</Filter>
     </ClInclude>
@@ -53,6 +59,12 @@
       <Filter>Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\Wind\Application.cpp">
+      <Filter>Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wind\Layer.cpp">
+      <Filter>Wind</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wind\LayerStack.cpp">
       <Filter>Wind</Filter>
     </ClCompile>
     <ClCompile Include="src\Wind\Log.cpp">
