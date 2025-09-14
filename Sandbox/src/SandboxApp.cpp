@@ -25,8 +25,8 @@ class Sandbox : public Wind::Application
 public:
 	Sandbox()
 	{
-
 		PushLayer(new ExampleLayer());
+		PushOverlay(new Wind::ImGuiLayer());
 	}
 
 	~Sandbox()

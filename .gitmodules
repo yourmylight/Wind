@@ -4,3 +4,6 @@
 [submodule "Wind/vendor/GLFW"]
 	path = Wind/vendor/GLFW
 	url = https://github.com/TheCherno/glfw
+[submodule "Wind/vendor/imgui"]
+	path = Wind/vendor/imgui
+	url = https://github.com/TheCherno/imgui
